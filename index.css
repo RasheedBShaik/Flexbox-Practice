@@ -7,7 +7,7 @@
   background-color: lightgrey;
   margin: 30px;
   display: flex;
-  /* padding: 25px; */
+  padding: 25px;
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 300px;
@@ -15,11 +15,10 @@
 
 .item {
   border: 1px solid red;
-  background: skyblue;
+  background: lightgreen;
   margin: 2px;
   color: white;
   padding: 10px;
   font-weight: bold;
-  width: fit-content;
   font-size: 36px;
 }
