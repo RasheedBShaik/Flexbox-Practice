@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-b/ox;
+}
+.container {
+  background-color: lightgrey;
+  margin: 30px;
+  display: flex;
+  /* padding: 25px; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+
+.item {
+  border: 1px solid red;
+  background: skyblue;
+  margin: 2px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  width: fit-content;
+  font-size: 36px;
+}
